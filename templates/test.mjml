@@ -1,0 +1,13 @@
+<mjml>
+  <mj-body>
+    <mj-container class='order'>
+      <mj-section>
+        <mj-column width="100%">
+          <mj-invoice class='items' format="0,00€" intl="name:Product Name">
+            <mj-invoice-item class='item' name="TV" price="549" quantity="1" />
+          </mj-invoice>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

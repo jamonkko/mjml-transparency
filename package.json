@@ -1,0 +1,32 @@
+{
+  "name": "mjml-transparency",
+  "version": "0.0.1",
+  "description": "Use transparency template engine to render html emails from your data objects and mjml templates",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamonkko/mjml-transparency.git"
+  },
+  "keywords": [
+    "mjml",
+    "transparency",
+    "template",
+    "data",
+    "binding",
+    "email",
+    "html"
+  ],
+  "author": "Jarkko Mönkkönen <jamonkko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamonkko/mjml-transparency/issues"
+  },
+  "homepage": "https://github.com/jamonkko/mjml-transparency#readme"
+}

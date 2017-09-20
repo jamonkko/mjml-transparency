@@ -28,5 +28,13 @@
   "bugs": {
     "url": "https://github.com/jamonkko/mjml-transparency/issues"
   },
-  "homepage": "https://github.com/jamonkko/mjml-transparency#readme"
+  "homepage": "https://github.com/jamonkko/mjml-transparency#readme",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "jsdom": "^11.2.0",
+    "mjml": "3.3.3",
+    "read-directory": "^2.1.0",
+    "require-dir": "^0.3.2",
+    "transparency": "^1.0.0"
+  }
 }

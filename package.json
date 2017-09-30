@@ -31,6 +31,7 @@
   "homepage": "https://github.com/jamonkko/mjml-transparency#readme",
   "dependencies": {
     "app-root-path": "^2.0.1",
+    "html-to-text": "^3.3.0",
     "jsdom": "^11.2.0",
     "mjml": "3.3.3",
     "read-directory": "^2.1.0",

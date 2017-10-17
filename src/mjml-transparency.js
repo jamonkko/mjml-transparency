@@ -9,7 +9,7 @@ module.exports = function(mjml, context={}, directives) {
     const dom = new JSDOM(template, { contentType: "text/xml" })
     for (let [name, data] of Object.entries(context)) {
       for (let element of dom.window.document.getElementsByClassName(name)) {
-        Transparency.render(element, data, directives)
+        Transparency.render(element, data, directives[name])
       }
     }
     return dom.window.document.getElementsByTagName('mjml')[0].outerHTML;

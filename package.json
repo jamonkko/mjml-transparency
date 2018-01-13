@@ -1,6 +1,6 @@
 {
   "name": "mjml-transparency",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Use transparency template engine to render html emails from your data objects and mjml templates",
   "main": "src/index.js",
   "directories": {

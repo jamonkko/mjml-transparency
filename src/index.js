@@ -18,7 +18,8 @@ module.exports = (options = {dir: appRoot.resolve('/email/templates'), altText: 
     const templateConfigs  = requireDir(templateDir)
     let templates = readDirectory.sync(templateDir, { filter: '*.mjml' })
     return (templateName, data) => {
-      const templateConfig = templateConfigs[templateName]({template: templateName, data})
+      const createTemplateConfig = templateConfigs[templateName].default || templateConfigs[templateName]
+      const templateConfig = createTemplateConfig({template: templateName, data})
       const mjml = templateToMjml(templates[templateName], data, templateConfig.directives)
       const result = {
         mjml: mjmlToHtml(mjml),
